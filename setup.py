@@ -13,7 +13,7 @@ setuptools.setup(
 	# Distribution name the package. Name must be unique so adding your username at the end is common.
 	name="sshsurf.py",
 	# Version number of your package. Semantic versioning is commonly used.
-	version="0.0.1a",
+	version="0.0.1b",
 	# Author name.
 	author="OrdinaryEnder",
 	# Author's email address.
