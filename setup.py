@@ -27,7 +27,8 @@ setuptools.setup(
 	# The URL that represents the homepage of the project. Most projects link to the repo.
 	url="https://github.com/OrdinaryEnder/sshsurf.py",
 	# Finds all packages within in the project and combines them into the distribution together.
-	packages=setuptools.find_packages(),
+        package_dir={'': 'src'}
+	packages=setuptools.find_packages(where='src'),
 	# requirements or dependencies that will be installed alongside your package when the user installs it via pip.
 	install_requires=['aiohttp'],
 	# Gives pip some metadata about the package. Also displays on the PyPi page.
