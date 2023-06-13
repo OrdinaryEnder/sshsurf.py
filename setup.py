@@ -33,7 +33,7 @@ setuptools.setup(
 	# Gives pip some metadata about the package. Also displays on the PyPi page.
 	classifiers=[
 		"Programming Language :: Python :: 3.8",
-		"License :: OSI Approved :: Apache-2.0 License",
+		"License :: OSI Approved :: Apache Software License",
 		"Operating System :: OS Independent",
 	],
 	# The version of Python that is required.
